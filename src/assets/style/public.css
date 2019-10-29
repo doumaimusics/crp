@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 顶部导航样式 */
+.van-nav-bar{
+    background: #1B1B1B;
+    font-size: 16px;
+    z-index: 12!important;
+}
+.van-nav-bar__title{
+    color: #FFFFFF;
+}
+.van-nav-bar .van-icon{
+    color: #fff;
+}
+/* 登录、注册、找回密码的背景样式 */
+.bg_box{
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets//img/home/bg_signup.png') no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 0px 15px 0 15px;
+}
+.bg_box .text_box{
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+.bg_box .text_box .left_text{
+    font-size: 22px;
+    color: #DDDEE8;
+}
+.bg_box .text_box .right_text {
+    font-size: 13px;
+    color: #00D2FF;
+    line-height: 30px;
+}
+.bg_box.login_bg{
+    padding-top: 178px;
+}
+.bg_box.pass_bg {
+    padding-top: 147px;
+}
+.bg_box.register_bg{
+    padding-top: 107px;
+}
+/* 登录、注册、修改密码输入框的样式 */
+.inpu_box{
+    margin-bottom: 30px;
+}
+.inputBox{
+    height: 45px;
+    background: #032C5F;
+    border-radius: 23px;
+    margin-bottom: 15px;
+    display: flex;
+    padding: 0 15px;
+}
+.inputBox .icon_box{
+    width: 16px;
+    height: 18px;
+    margin-right: 15px;
+    margin-top: 14px;
+}
+.inputBox.phone_box .icon_box{
+    background: url('../../assets/img/login/icon_signin1.png') no-repeat;
+    background-size: cover;
+}
+.inputBox.pass_box .icon_box {
+    background: url('../../assets/img/login/icon_signin2.png') no-repeat;
+    background-size: 100%;
+}
+.inputBox.code_box .icon_box {
+    background: url('../../assets/img/login/bg_signup.png') no-repeat;
+    background-size: 100%;
+}
+.inputBox.inv_box .icon_box{
+    background: url('../../assets/img/login/icon_signin5.png') no-repeat;
+    background-size: cover;
+}
+.inputBox .text_box{
+    font-size: 13px;
+    color: #276DBD;
+    line-height: 45px;
+    margin-right: 8px;
+}
+.inputBox .sanjiao{
+    width: 7px;
+    height: 4px;
+    background: url('../../assets/img/login/arrow.png') no-repeat;
+    background-size: cover;
+    margin-top: 21px;
+    margin-right: 8px;
+}
+.inputBox .xian {
+    width: 1px;
+    height: 15px;
+    background: #276DBD;
+    margin-top: 15px;
+    margin-right: 9px;
+}
+.inputBox .phone_input{
+    height: 100%;
+}
+.inputBox  input{
+    background: #032C5F;
+    height: 100%;
+    border:none;
+    padding: 0px;
+    color: #276DBD;
+    font-size: 13px;
+}
+.inpu_btn{
+    font-size: 13px;
+    color: #00D2FF;
+    line-height: 45px;
+    margin-left: 60px;
+}
+.inpu_btn.get_code {
+    width: 45%;
+    padding: 0;
+    border:none;
+    margin: 0 0 0 0px;
+    background: #032C5F;
+}
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #276DBD;
+    font-size: 13px;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #276DBD;
+    font-size: 13px;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #276DBD;
+    font-size: 13px;
+}
+
+/* 按钮样式 */
+.button_box{
+    text-align: center;
+    color: #031B41;
+    font-size: 15px;
+    border-radius:25px; 
+    background: linear-gradient(to right, #02FDCB, #00D2FF)
+}
+.button_box.btn_50 {
+    line-height: 50px;
+    margin-bottom: 27px;
+}
+
+/* 按钮下面的文字样式 */
+.go_box{
+    font-size: 13px;
+    color: #00D2FF;
+    text-align: center;
+}
+.go_box span{
+    color: #276DBD;
+}
